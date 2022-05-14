@@ -1,0 +1,27 @@
+O Git foi criado em 2005 por Linus Torvalds.
+Tem uma arquitetura distribuída, diante disso, ele é considerado seguro.
+O Git trabalha com o CLI (Command Line Interface), não com GUI (Graphical User Interface); ele não tem uma interface gráfica.
+
+O Git tem três objetos internos: BLOBS; TREES; e COMMITS.
+
+Blobs: Cada arquivo no Git é armazenado como um objeto blob, a partir do conteúdo do arquivo ele gera um hash (SHA-1) que será armazenado 
+em algum lugar endereçável como aa1b2fb696a831c89c53f787e03d863691d2b671. Ou seja, O Git vai guardar os arquivos encriptando-os.
+
+Trees: A árvore guarda toda estrutura de onde estão os arquivos. Ela armazena o nome de arquivo e também permite armazenar de forma conjunta um grupo de arquivos.
+Aponta para os blobs (arquivos) e/ou outras árvores (diretórios).
+
+Commit: Ele vai juntar tudo, vai dar sentido à alteração que você está fazendo. Se você alterar um dado dentro de um blob, vai alterar os metadados de uma árvore, 
+aí nessa aponta para outras árvores, e consequentemente vai refletir no COMMIT. O Git vai garantir que nada vai alterar o COMMIT.
+
+
+Falando sobre GitHub... O Git e Github não são a mesma coisa, eles são complementares, mas diferentes. Então, qual a diferença entre Git e GitHub?
+O GitHub é uma plataforma que pode conter repositórios de código em armazenamento baseado em nuvem para que vários desenvolvedores possam trabalhar em um único projeto 
+e ver as edições de cada um deles em tempo real; ele também inclui recursos de organização e gestão de projetos. É como uma plataforma social colaborativa, 
+onde programadores e empresas colocam seus projetos para o desenvolvimento do código. O Git é um software de controle de versão distribuído que permite aos
+desenvolvedores salvar seus projetos ao longo do tempo.
+Ou seja, o Git é uma ferramenta para versionar projetos, o GitHub é o site no qual você colocará esses projetos versionados.
+
+
+
+
+
